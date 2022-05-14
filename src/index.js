@@ -9,7 +9,7 @@ const app = express()
 //tao mot bien app gan ==
 //goi lai ham express --> duoc tao san trong thu vien
 
-const port = 7070
+const port = 7080
 //khoi tao cong localhost
 
 app.use(express.static(path.join(__dirname, 'public')));
